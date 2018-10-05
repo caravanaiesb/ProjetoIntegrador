@@ -1,4 +1,4 @@
-package iesb.br.medics;
+package iesb.br.caravanapi;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

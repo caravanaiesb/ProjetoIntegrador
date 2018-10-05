@@ -45,7 +45,7 @@
         tools:layout_editor_absoluteX="16dp" />
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/FazerLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -54,11 +54,11 @@
         app:layout_constraintBottom_toTopOf="@+id/Registrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtSenha" />
+        app:layout_constraintTop_toBottomOf="@+id/Senha" />
 
     <EditText
-        android:autofillHints=""
-        android:id="@+id/edtEmail"
+        android:id="@+id/Email"
+        android:autofillHints="@string/exemplo_caravana_com"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="13dp"
@@ -66,29 +66,26 @@
         android:layout_marginEnd="13dp"
         android:layout_marginBottom="8dp"
         android:hint="@string/exemplo_caravana_com"
-        app:layout_constraintBottom_toTopOf="@+id/edtSenha"
+        app:layout_constraintBottom_toTopOf="@+id/Senha"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        tools:ignore="UnusedAttribute"
-        tools:targetApi="o" />
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
-    <EditText
-        android:autofillHints="Password"
-        android:hint="@string/password"
-        android:id="@+id/edtSenha"
+    <EditText 
+        android:autofillHints="@string/password"
+        android:id="@+id/Senha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="13dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="13dp"
         android:layout_marginBottom="8dp"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        android:inputType="numberPassword"
+        android:hint="@string/password"
+        app:layout_constraintBottom_toTopOf="@+id/FazerLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtEmail"
-        tools:ignore="UnusedAttribute" />
+        app:layout_constraintTop_toBottomOf="@+id/Email" />
 
     <Button
         android:id="@+id/Registrar"
@@ -96,10 +93,21 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="16dp"
         android:text="@string/registrar_se"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/FazerLogin" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/esqueci_minha_senha"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Registrar" />
 </android.support.constraint.ConstraintLayout>

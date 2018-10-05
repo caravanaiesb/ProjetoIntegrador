@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Medics</string>
+    <string name="bem_vindo_a_caravana">Bem Vindo a Caravana</string>
+    <string name="todo">TODO</string>
+    <string name="login">Login</string>
+    <string name="exemplo_caravana_com">exemplo@caravana.com</string>
+    <string name="password">Password</string>
+    <string name="registrar_se">Registrar-se</string>
+    <string name="esquceu_sua_senha">Esquceu sua senha?</string>
+    <string name="esqueci_minha_senha">Esqueci minha senha</string>
+    <string name="logado_com_sucesso">LOGADO COM SUCESSO</string>
 </resources>

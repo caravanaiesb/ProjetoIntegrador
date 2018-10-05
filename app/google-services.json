@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "536858990281",
+    "firebase_url": "https://caravana-9eb5d.firebaseio.com",
+    "project_id": "caravana-9eb5d",
+    "storage_bucket": "caravana-9eb5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536858990281:android:e4283a5146fcd795",
+        "android_client_info": {
+          "package_name": "iesb.br.caravanapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536858990281-pl12aands7t29l86heat854hf6ar0j4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "iesb.br.caravanapi",
+            "certificate_hash": "248fb773444499c7b66d1340c6b2d4abd1257f8f"
+          }
+        },
+        {
+          "client_id": "536858990281-15qfhupdk9aqh87hl985nedetc35lj5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeOGE3sQzE8uZzTnuj4poJXQH6-uIO1Is"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536858990281-15qfhupdk9aqh87hl985nedetc35lj5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

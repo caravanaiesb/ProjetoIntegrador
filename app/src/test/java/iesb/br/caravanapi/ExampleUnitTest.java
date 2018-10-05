@@ -1,4 +1,4 @@
-package iesb.br.medics;
+package iesb.br.caravanapi;
 
 import org.junit.Test;
 
